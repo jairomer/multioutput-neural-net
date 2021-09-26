@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/neusynk/Workspace/Projects/multioutput-neural-net/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+IM_WIDTH	app/main.py	/^IM_WIDTH = IM_HEIGHT = 198$/;"	v
+Parser	app/main.py	/^class Parser:$/;"	c
+TRAIN_TEST_SPLIT	app/main.py	/^TRAIN_TEST_SPLIT=0.7$/;"	v
+XAUTH	Makefile	/^export XAUTH=\/tmp\/.docker.xauth$/;"	m
+XAUTH_KEYS_	Makefile	/^export XAUTH_KEYS_="$(xauth list $HOST\/unix:0)"$/;"	m
+XSOCK	Makefile	/^export XSOCK=\/tmp\/.X11-unix$/;"	m
+build	Makefile	/^build:$/;"	t
+dataset_dict	app/main.py	/^dataset_dict = {$/;"	v
+dataset_folder_name	app/main.py	/^dataset_folder_name=script_path+'\/data\/UTKFace'$/;"	v
+df	app/main.py	/^df = Parser.parse_dataset(dataset_folder_name)$/;"	v
+np	app/main.py	/^import numpy as np$/;"	I	nameref:module:numpy
+parse_dataset	app/main.py	/^    def parse_dataset(dataset_path, ext='jpg'):$/;"	m	class:Parser
+parse_info_from_file	app/main.py	/^    def parse_info_from_file(path):$/;"	m	class:Parser
+pd	app/main.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+plt	app/main.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+run	Makefile	/^run:$/;"	t
+script_path	app/main.py	/^script_path=os.path.split(os.path.realpath(__file__))[0]$/;"	v
+sns	app/main.py	/^import seaborn as sns$/;"	I	nameref:module:seaborn
