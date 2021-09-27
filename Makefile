@@ -17,5 +17,11 @@ run:
 	-e XAUTHORITY=${XAUTH} \
 	-v ${XSOCK}:${XSOCK}  \
 	-v ${XAUTH}:${XAUTH} \
-	--rm \
 	p1
+
+native-build:
+	python3 -m pip install -r requirements.txt
+
+
+native-run:
+	python3 app/main.py

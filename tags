@@ -10,20 +10,33 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
 IM_WIDTH	app/main.py	/^IM_WIDTH = IM_HEIGHT = 198$/;"	v
+Multioutput Neural Net	README.md	/^# Multioutput Neural Net$/;"	c
 Parser	app/main.py	/^class Parser:$/;"	c
+Plotter	app/main.py	/^class Plotter:$/;"	c
 TRAIN_TEST_SPLIT	app/main.py	/^TRAIN_TEST_SPLIT=0.7$/;"	v
+UtkFaceDataGenerator	app/main.py	/^class UtkFaceDataGenerator():$/;"	c
 XAUTH	Makefile	/^export XAUTH=\/tmp\/.docker.xauth$/;"	m
 XAUTH_KEYS_	Makefile	/^export XAUTH_KEYS_="$(xauth list $HOST\/unix:0)"$/;"	m
 XSOCK	Makefile	/^export XSOCK=\/tmp\/.X11-unix$/;"	m
+__init__	app/main.py	/^    def __init__(self, dataframe):$/;"	m	class:UtkFaceDataGenerator
 build	Makefile	/^build:$/;"	t
+data_analysis	app/main.py	/^def data_analysis(df):$/;"	f
 dataset_dict	app/main.py	/^dataset_dict = {$/;"	v
 dataset_folder_name	app/main.py	/^dataset_folder_name=script_path+'\/data\/UTKFace'$/;"	v
-df	app/main.py	/^df = Parser.parse_dataset(dataset_folder_name)$/;"	v
+generate_images	app/main.py	/^    def generate_images(self, image_idx, is_training, batch_size=16):$/;"	m	class:UtkFaceDataGenerator
+generate_split_indexes	app/main.py	/^    def generate_split_indexes(self):$/;"	m	class:UtkFaceDataGenerator
+go	app/main.py	/^import plotly.graph_objects as go$/;"	I	nameref:module:plotly.graph_objects
+main	app/main.py	/^def main():$/;"	f
+native-build	Makefile	/^native-build:$/;"	t
+native-run	Makefile	/^native-run:$/;"	t
 np	app/main.py	/^import numpy as np$/;"	I	nameref:module:numpy
 parse_dataset	app/main.py	/^    def parse_dataset(dataset_path, ext='jpg'):$/;"	m	class:Parser
 parse_info_from_file	app/main.py	/^    def parse_info_from_file(path):$/;"	m	class:Parser
 pd	app/main.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+plot_histogram	app/main.py	/^    def plot_histogram(pd_series, nbins):$/;"	m	class:Plotter
+plot_pie	app/main.py	/^    def plot_pie(pd_series):$/;"	m	class:Plotter
 plt	app/main.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+preprocess_image	app/main.py	/^    def preprocess_image(self, image_path):$/;"	m	class:UtkFaceDataGenerator
+px	app/main.py	/^import plotly.express as px$/;"	I	nameref:module:plotly.express
 run	Makefile	/^run:$/;"	t
 script_path	app/main.py	/^script_path=os.path.split(os.path.realpath(__file__))[0]$/;"	v
-sns	app/main.py	/^import seaborn as sns$/;"	I	nameref:module:seaborn
